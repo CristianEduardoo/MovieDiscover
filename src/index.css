@@ -1,0 +1,21 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap";
+
+/*---------------------- Para resetear la pag ---------------------*/
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* PARA QUE 1REM = 10 PX  */
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+  background-color: black;
+  color: white;
+}

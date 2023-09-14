@@ -1,0 +1,27 @@
+/*---------------------- modificando tamano de imagen -----------------------*/
+.movie-image {
+  width: 170px;
+  height: 250px;
+  border-radius: 1rem;
+}
+
+@media (min-width: 768px) {
+  .movie-image {
+    width: 200px;
+    height: 300px;
+  }
+}
+
+/*---------------------- aplicando css a cada pelicula -----------------------*/
+.movie-card {
+    list-style: none;
+    font-size: 2rem;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.movie-card:hover{
+    opacity: 0.7;
+    transform:translateY(-3rem);
+    transition: 0.5s;
+}
